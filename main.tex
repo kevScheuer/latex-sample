@@ -3,12 +3,25 @@
 \usepackage{graphicx}   % for including images
 \usepackage{natbib}     % bibliography package
 \usepackage{subfiles}   % Allows compilation within subfiles
+\usepackage{xcolor}     % for colors
+\definecolor{light-gray}{gray}{0.9} % define light-gray color
 
 \bibliographystyle{plain}
 
+\title{Sample \LaTeX\ Document to Explore Git and Zotero Integration}
+\author{Kevin Scheuer}
+
 \begin{document}
 
-Sample
+\maketitle
+
+Welcome! The below section is part of a subfile, which you can find in the
+\colorbox{light-gray}{\texttt{sections/experiment/}} folder. It includes an example of
+how to cite and include a figure. Try making edits now!
+
+Once you've made edits, you can build the project by navigating to the \textbf{LaTeX} tab
+and selecting $\textcolor{green}{\triangleright} \textbf{Build LaTeX project}$. You
+should see the changes reflected in the \colorbox{light-gray}{\texttt{main.pdf}} file.
 
 % Using subfiles de-clutters this main file and keeps things organized
 \subfile{sections/experiment/experiment.tex}
