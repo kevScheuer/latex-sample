@@ -1,0 +1,10 @@
+# ignore all the latex make files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*fls
+*log
+*.out
+*.synctex.gz
+*.toc

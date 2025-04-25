@@ -1,0 +1,19 @@
+\documentclass{article}
+
+\usepackage{graphicx}   % for including images
+\usepackage{natbib}     % bibliography package
+\usepackage{subfiles}   % Allows compilation within subfiles
+
+\bibliographystyle{plain}
+
+\begin{document}
+
+Sample
+
+% Using subfiles de-clutters this main file and keeps things organized
+\subfile{sections/experiment/experiment.tex}
+
+\newpage
+\bibliography{bibliography}
+
+\end{document}
