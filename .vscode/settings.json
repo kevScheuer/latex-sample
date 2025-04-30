@@ -1,0 +1,5 @@
+{
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "cSpell.diagnosticLevel": "Hint",
+    "zotero.latexCommand": "cite"
+}
